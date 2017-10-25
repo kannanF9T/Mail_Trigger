@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webapp>
+<display-name>Mail Web App</display-name>
+<welcome-file-list>
+<welcome-file>MailHome.jsp</welcome-file>
+</welcome-file-list>
+<servlet>
+<servlet-name>MailTrigger</servlet-name>
+<servlet-class>util.mailtrigger.MailTrigger</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>MailTrigger</servlet-name>    
+<url-pattern>/MailTrigger</url-pattern>
+</servlet-mapping>
+</webapp>
